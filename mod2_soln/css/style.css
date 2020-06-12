@@ -1,0 +1,85 @@
+/* Basic Style Here */
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Indie Flower', cursive;
+}
+
+.container {
+	border: 1px solid;
+	background-color: lightgray;
+	position: relative;
+	padding: 15px;
+	margin: 10px;
+	float: left;
+}
+
+.c1 {
+	width: 30%;
+}
+
+.c2 {
+	width: 30%;
+}
+
+.c3 {
+	width: 30%;
+}
+
+.title {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	text-align: center;
+	border: 1px solid;
+	width: 33%;
+}
+
+#t1 {
+	background: skyblue;
+}
+#t2 {
+	background: orange;
+}
+#t3 {
+	background: darkgray;
+}
+
+
+
+/* Desktop */
+@media (min-width: 992px) {
+	/**/
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px){
+	.c1 {
+		width: 45%;
+	}
+
+	.c2 {
+		width: 45%;
+	}
+
+	.c3 {
+		width: 90%;
+	}
+}
+
+/* Phone */
+@media (max-width: 767px){
+	.c1 {
+		width: 95%;
+	}
+
+	.c2 {
+		width: 95%;
+	}
+
+	.c3 {
+		width: 95%;
+	}
+}
