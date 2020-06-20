@@ -1,11 +1,5 @@
 #header-nav {
-	/*background: grey;*/
 	border-radius: 0px;
-	position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    z-index: 99999999;
 }
 
 #logo_name {
