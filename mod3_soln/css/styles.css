@@ -1,0 +1,45 @@
+#header-nav {
+	/*background: grey;*/
+	border-radius: 0px;
+	position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 99999999;
+}
+
+#logo_name {
+	/*color : white ;*/
+}
+
+.navbar-toggle { 
+	background: white;
+}
+
+#myNavbar li {
+	border: 1px solid;
+	text-align: center;
+}
+
+.navbar-collapse {
+	background: #bdc3c7;
+}
+
+.main_content { 
+	background: #ecf0f1;
+	padding: 0 25px;
+}
+
+.v-gap {
+	margin: 45px auto;
+}
+
+.blank {
+	height: 32px;
+}
+
+@media (max-width: 767px){
+	.row{
+		margin: auto 50px;
+	}
+}
